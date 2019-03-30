@@ -1,64 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <link rel="stylesheet" href="main.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Noto+Serif+TC:200|Charm' rel='stylesheet' />
-    <script src="main.js">
-    </script>
+    <script src="main.js"></script>
 </head>
 
 <body>
-    <div id="header">
-        <h1>SUDHA M S</h1>
-        <h3>Passionate programmer with 1+ experience in Quality Assurance. Worked independently on API automation
-            project using ruby and cucumber.
+    <div id="head">
+       <p> Sudha M S</p>
+       <p> <i class="fa fa-home"></i> 338, Railway Quarters, East Tambaram, Chennai - 45, India </p>
+       <p> <i class="fa fa-phone"></i> <span class="gray-bold-text">Phone:</span> +91 9176915960 | 
+        <i class="fa fa-envelope"></i> <span class="gray-bold-text">Email:</span> sudhank.naik@gmail.com | 
+        <i class="fa fa-github"></i> <span class="gray-bold-text">Github:</span> sudha108</p>
     </div>
-    <i id="menu-bar" class="fa fa-2x fa-bars"></i>
-    <div id="menu">
+    <div id="line1" class="horisontal-line"></div>
+    <div id="profile">
+        <p class="title"><i class="fa fa-user"></i> Profile</p>
+        <p> Passionate programmer with 1+ experience in Quality Assurance. Worked independently on API automation project using ruby and cucumber. 
+            A collaborative team player with excellent communication, interpersonal skills and ability to learn new concepts and software quickly.</p>
+    </div>
+    <div id="tech-skills">
+        <p class="title"><i class="fa fa-cogs"></i> Technical Skills</p>
+        <table>
+            <tr>
+                <td><b>Frontend</b></td>
+                <td>HTML, CSS, Sass, JavaScript</td>
+            </tr>
+            <tr>
+                <td><b>Backend</b></td>
+                <td>Ruby, Java, Python, PHP, NodeJs</td>
+            </tr>
+            <tr>
+                <td><b>Tools</b></td>
+                <td>Git, Jenkins, Docker</td>
+            </tr>
+            <tr>
+                <td><b>Databases</b></td>
+                <td>MySQL, PostgreSQL</td>
+            </tr>
+            <tr>
+                <td><b>Testing</b></td>
+                <td>Cucumber, Selenium, Postman, JMeter, Protractor, RSpec</td>
+            </tr>
+        </table>
+    </div>
+    <div id="experience">
+        <p class="title"><i class="fa fa-university"></i> Experience</p>
+        <p class="gray-title">Sept 2017 - Present</p>
+        <p class="sub-title">Fourkites, Chennai - <i>Quality Assurance Engineer</i></p>
         <ul>
-            <li><a href="#keywords"> Keywords </a></li>
-        </ul>       
+            <li>Architected and built an API Automation Framework using Cucumber in ruby and integrated it with TestRails and Google Sheets </li>
+            <li>Contributed extensively to the company-wide Scriptless Automation Framework </li>
+            <li>Handled several releases as a single QA resource with on-time deployment </li>
+            <li>Recognised in Monthly All Hands around 2-3 times for taking up ownership </li>
+            <li>Mentored 2 interns to test in an agile manner and capturing corner cases </li>
+            <li>Scheduled a Cron in Jenkins to create data in demo environment with self-interest </li>
+            <li>Used Postman for API Testing and wrote basic test scripts for validations </li>
+            <li>Improvised Load Testing in JMeter with scripts for dynamic data </li>
+            <li>Familiarised with Test Management Tools: Jira, TestRail, Confluence </li>
+            <li>Prepared and documented Test plans, test data and test cases and reported several bugs </li>
+            <li>Documented the product functionalities for newcomers </li>
+            <li>Tested the product like a layman and provided feedback on designs </li>
+            <li>Worked as an intern with full responsibility for about 7 months during college </li>      
+        </ul>
     </div>
-    <div id="container">
-        <div id="experience" class="item">
-            <h2>Experience</h2>
-            kjsdlkajdal
-        </div>
-        <div id="technical_skills" class="item">
-            <h2>technical_skills</h2>
-            anjdklasjljlkdajlkdmlkas<br>
-            anjdklasjljlkdajlkdmlkas<br>
-            anjdklasjljlkdajlkdmlkas<br>
-            anjdklasjljlkdajlkdmlkas
-        </div>
-        <div id="projects" class="item">
-            <h2>projects</h2>
-        </div>
-        <div id="education" class="item">
-            <h2>education</h2>
-            anjdklasjljlkdajlkdmlkasanjdklasjljlkdajlkdmlkas<br>
-            anjdklasjljlkdajlkdmlkasanjdklasjljlkdajlkdmlkasanjdklasjljlkdajlkdmlkas
-            anjdklasjljlkdajlkdmlkas
-            v<br>
-            anjdklasjljlkdajlkdmlkasv<br>
-            anjdklasjljlkdajlkdmlkas
-            anjdklasjljlkdajlkdmlkas<br>
-        </div>
-        <div id="personal" class="item">
-            <h2>personal</h2>
-        </div>
-        <div id="certifications" class="item">
-            <h2>certifications</h2>
-        </div>
-        <div id="keywords" class="item">
-            <h2>keywords</h2>
-        </div>
+    <div id="projects">
+        <p class="title"><i class="fa fa-bar-chart"></i> Personal Projects</p>
+        <p class="sub-title"> Application Blocking for Group of Users - <i>Android Application</i></p>
+        <ul>
+            <li><span class="gray-bold-text">Description:</span> Given a group of users with one admin, the application blocks certain mobile apps 
+                blacklisted by the admin to the subordinate users during working hours on excessive usage as configured by the admin.</li>
+            <li> <span class="gray-bold-text">Technology:</span> PHP, XML, Java, MySQL, Android, Broadcast Receivers, Shared Preferences, Volley Library</li>
+            <li>Presented the project at an International Conference in Chennai</li>
+        </ul>
+        <p class="sub-title"> Testido - <i>API Automated Test Framework</i></p>
+        <ul>
+            <li><span class="gray-bold-text">Description:</span> Given Features and scenarios, the framework executes tests based on the automated scripts 
+                compares the test steps with regular expressions and performs API validations and exports the results as a JSON file.</li>
+            <li><span class="gray-bold-text">Technology:</span> Cucumber, Ruby, RSpec, MySQL, Postgres, Google API Client</li>
+        </ul>
+    </div>
+    <div id="education">
+        <p class="title"><i class="fa fa-graduation-cap"></i> Education</p>
+        <p class="gray-title">Aug 2014 - April 2018</p>
+        <p class="sub-title">Dhanalakshmi College of Engineering, Chennai - B.E.(CSE) - 7.74 CGPA</p>
+        <ul>
+            <li>Been the Class Representative for 2 years</li>
+            <li>Was part of Rotaract and Inspire Club and conducted events for the same</li>
+            <li>Attended Workshops on IoT by Microsoft, Embedded Linux, Python by Infosys</li>
+            <li>Courses - NPTEL (Introduction to OS), 360 Ripples (Programming in Java)</li>
+            <li>Participated in Open House Exhibitions and Symposiums</li>
+        </ul>
+        <p class="gray-title">April 2002 - April 2014</p>
+        <p class="sub-title">Kendriya Vidyalaya Minambakkam, Chennai - 9.4 CGPA in 10th & 82% in 12th</p>
+        <ul>
+            <li>Participated and ranked among the top 30% at school level in Science and Green Olympiads consequently for 3 years</li>
+            <li>Participated in Inter-school Social Science Exhibitions</li>
+            <li>Participated in Regional National Children’s Science Congress</li>
+        </ul>
+    </div>
+    <div id="personal-info">
+        <p class="title"> Personal Information</p>
+        <table>
+            <tr>
+                <th><i class="fa fa-comments"></i> Languages I know</th>
+                <th><i class="fa fa-sign-language"></i> Hobbies</th>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td>English</td>
+                            <td>Speak, Read, Write</td>
+                        </tr>
+                        <tr>
+                            <td>Hindi</td>
+                            <td>Speak, Read, Writ</td>
+                        </tr>
+                        <tr>
+                            <td>Tamil</td>
+                            <td>Speak, Read</td>
+                        </tr>
+                        <tr>
+                            <td>Kannada</td>
+                            <td>Speak, Read, Write</td>
+                        </tr>
+                        <tr>
+                            <td>Tulu</td>
+                            <td>Speak</td>
+                        </tr>
+                    </table> 
+                <td>
+                    <ul>
+                        <li>I love to paint and sketch</li>
+                        <li>I write interesting stories and publish them online in Wattpad
+                                <br/><span class="gray-bold-text">Link:</span> www.wattpad.com/user/MSSudha</li>
+                    </ul>                        
+                </td>
+            </tr>
+        </table>
     </div>
     <div id="footer">
-        <p>Contact me: sudhavstorage@gmail.com</p>
+        PDF link for the Resume: //store pdf in folder and retieve same in new page
     </div>
 </body>
 
