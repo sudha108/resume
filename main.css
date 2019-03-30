@@ -1,0 +1,67 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    font-size: 20px;
+}
+#name{
+    position: absolute;
+    top: 30px;
+    margin-left: 5px;
+    font-size: 40px;
+    color: #0b5394;
+    font-weight: bold;
+}
+#address{
+    position: absolute;
+    top:85px;
+    margin-left: 10px;
+}
+#links{
+    position: absolute;
+    top:112px;
+    margin-left: 10px;
+}
+#line1{
+    position: absolute;
+    top:142px;
+    background: #000000;
+    height: 2px;
+    width: 700px;
+}
+.title{
+    font-size: 25px;
+    color: #0b5394;
+    font-weight: bold;
+}
+.text{
+    margin-top: 10px;
+    display: block;
+}
+#profile{
+    position: absolute;
+    top:175px;
+}
+#tech-skills{
+    position: absolute;
+    top:290px;
+}
+#experience{
+    position: absolute;
+    top:490px;
+}
+#projects{
+    position: absolute;
+    bottom: 0;
+}
+#education{
+    position: absolute;
+    bottom: 0;
+}
+#personal-info{
+    position: absolute;
+    bottom: 0;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+}
