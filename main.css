@@ -1,22 +1,20 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     margin-left: 50px;
-    margin-right: 50px;
     font-size: 20px;
-}
-.horizontal-line{
-    box-shadow: #b1a9a9 1px 1px 1px;
-    height: 2px;
-    /* width: 800px; */
 }
 .side-heading{
     margin-top: 5px;
     display: block;
     margin-bottom: 5px;
 }
-.second{
+.second-table-item{
     padding-left: 50px;
     vertical-align: top;
+}
+.next-item{
+    margin-top:15px;
+    display: block;
 }
 .title{
     font-size: 25px;
@@ -24,6 +22,10 @@ body{
     display: block;
     font-weight: bold;
     margin-bottom: 10px;
+    width: 100%;
+    padding-bottom: 3px;
+    border-bottom: #b1a9a9 2px solid;
+    text-shadow: #d8cccc 1px 1px 2px;
 }
 .gray-text{
     color: #7e7e7e;
@@ -40,18 +42,7 @@ th{
 #personal-table{
     margin-left: 50px;
 }
-#cut-down-footer{
-    position: absolute;
-    top:1900px;
-    height: 25px;
-}
 #footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 25px;
-    padding: 5px;
     background: #b1a9a9; 
     text-align: center;
 }
@@ -80,12 +71,17 @@ a:active {
     width: 100%;
     font-weight: bold;
     box-shadow: #b1a9a9 1px 1px 1px;
+    text-shadow: #d8cccc 2px 2px 2px;
     z-index: 10;
 }
 #container{
     position: absolute;
-    top: 90px;
+    top: 70px;
 }
 #container div{
     padding: 3px;
+    padding-top: 25px;
+}
+ul{
+    margin-bottom: 0;
 }
