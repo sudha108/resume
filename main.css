@@ -36,58 +36,7 @@ th{
     padding-bottom: 10px;
     padding-top: 10px;
 }
-#name{
-    position: fixed;
-    top: 0px;
-    left: 0;
-    margin-left: 50px;
-    padding-top: 35px;
-    font-size: 40px;
-    color: #0b5394;
-    background: #ffffff;
-    width: 100%;
-    font-weight: bold;
-    box-shadow: #b1a9a9 1px 1px 1px;
-    z-index: 10;
-}
-#address{
-    position: absolute;
-    top:95px;
-    margin-left: 10px;
-}
-#links{
-    position: absolute;
-    top:125px;
-    margin-left: 10px;
-}
-#line{
-    position: absolute;
-    top:156px;
-}
-#profile{
-    position: absolute;
-    top:180px;
-}
-#tech-skills{
-    position: absolute;
-    top:290px;
-}
-#experience{
-    position: absolute;
-    top:490px;
-}
-#projects{
-    position: absolute;
-    top:920px;
-}
-#education{
-    position: absolute;
-    top:1250px;
-}
-#personal-info{
-    position: absolute;
-    top:1655px;
-}
+
 #personal-table{
     margin-left: 50px;
 }
@@ -118,4 +67,25 @@ a:hover {
 }
 a:active {
     text-decoration: underline;
+}
+#name{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    margin-left: 50px;
+    padding-top: 35px;
+    font-size: 40px;
+    color: #0b5394;
+    background: #ffffff;
+    width: 100%;
+    font-weight: bold;
+    box-shadow: #b1a9a9 1px 1px 1px;
+    z-index: 10;
+}
+#container{
+    position: absolute;
+    top: 90px;
+}
+#container div{
+    padding: 3px;
 }
