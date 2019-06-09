@@ -2,11 +2,10 @@ body{
     font-family: 'Times New Roman', Times, serif;
     margin-left: 80px;
     font-size: 20px;
+    line-height: 30px;
 }
 .side-heading{
-    margin-top: 5px;
     display: block;
-    margin-bottom: 5px;
 }
 .second-table-item{
     padding-left: 50px;
@@ -59,16 +58,9 @@ a:visited {
     color: #000000;
 }  
 a:hover {
-    text-decoration: underline;
-}
-a:active {
-    text-decoration: underline;
+    color: rebeccapurple;
 }
 #title{
-    position: fixed;
-    top: 0px;
-    left: 0;
-    margin-left: 50px;
     padding-top: 35px;
     font-size: 40px;
     color: #0b5394;
@@ -92,13 +84,15 @@ a:active {
 }
 #scroll_button{
     position: fixed;
-    bottom: 40px;
+    bottom: 50px;
     right: 20px;
-    /* width: 20px; */
     text-align: center;
     padding: 5px;
     border-radius: 50px;
     background: #cecaca;
+}
+#scroll_button:hover{
+    text-decoration: none;
 }
 ul{
     margin-bottom: 0;
