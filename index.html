@@ -124,6 +124,24 @@
         <div id="footer"><a href="https://sudha108.github.io/resume/Sudha_M_S.pdf" target="_blank">Click to open PDF of my resume</a></div>
     </div>
     <div id="scroll_button"><a href="#">Back to Top <i class="fa fa-angle-double-up"></i></a></div>
+    <script>
+        window.addEventListener("resize", () =>{
+            if(document.getElementById("address").clientHeight > 60){
+                document.getElementById("container").style.top = "150px";
+            } else if(document.getElementById("address").clientHeight > 30){
+                document.getElementById("container").style.top = "120px";
+            } else {
+                document.getElementById("container").style.top = "100px";
+            }
+        })
+        if(document.getElementById("address").clientHeight > 60){
+            document.getElementById("container").style.top = "150px";
+        } else if(document.getElementById("address").clientHeight > 30){
+            document.getElementById("container").style.top = "120px";
+        } else {
+            document.getElementById("container").style.top = "100px";
+        }
+    </script>
 </body>
 
 </html>

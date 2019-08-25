@@ -2,8 +2,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
     margin-left: 14%;
     margin-right: 15%;
-    font-size: 20px;
     line-height: 30px;
+    font-size: 20px;
 }
 #main{
     position: fixed;
@@ -26,9 +26,9 @@ body{
     height: 3px;
     border-radius: 3px;
 }
-#top-line{
+#top-line, #address{
     width: 71%;
-}
+} 
 #container{
     position: relative;
     top: 100px;
