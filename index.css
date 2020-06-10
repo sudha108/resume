@@ -3,9 +3,9 @@ body{
     margin-left: 14%;
     margin-right: 15%;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 18px;
 }
-#main{
+#header{
     position: fixed;
     top: 0;
     background: #ffffff;
@@ -44,6 +44,9 @@ body{
     text-align: justify;
     padding-top: 5px;
 }
+.side-heading{
+    padding-top: 10px;
+}
 .gray-text{
     color: #7e7e7e;
 }
@@ -52,6 +55,10 @@ body{
 }
 td{
     padding-right: 120px;
+}
+ul{
+    text-align: justify; 
+    margin-top: 5px;
 }
 .side{
     padding-left: 40px;
@@ -70,4 +77,21 @@ td{
     border-radius: 15px;
     text-align: center;
     padding: 10px 0 15px 0;
+}
+
+a:link {
+    color: #0b5394;
+    text-decoration: none;
+}
+a:visited {
+    color: #0b5394;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+}
+a:active {
+    color: rgb(0, 132, 255);
+    text-decoration: underline;
 }
