@@ -6,19 +6,64 @@ body{
     font-size: 18px;
 }
 #header{
-    position: fixed;
+    position: absolute;
     top: 0;
-    background: #ffffff;
+    left: 0;
+    background: #a21a19;
     z-index: 10;
     width: 100%;
-    padding-bottom: 10px;
+    color: #ffffff;
 }
 #title {
     font-size: 40px;
     font-weight: bolder;
-    padding-top: 35px;
-    color: #0b5394;
-    text-shadow: #d8cccc 2px 2px 2px;
+    letter-spacing: 3px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+}
+#title-desc{
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-left: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+}
+#address{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    padding-bottom: 10px;
+    
+}
+#static-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #a21a19;
+    z-index: 0;
+    width: 100%;
+    color: #ffffff;
+}
+#s-h-title {
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Playfair Display', serif;
+}
+#s-h-title-desc{
+    font-size: 13px;
+    letter-spacing: 3px;
+    padding-left: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif;
 }
 .horizontal-line{
     background-color: #b1a9a9;
@@ -30,14 +75,13 @@ body{
     width: 71%;
 } 
 #container{
-    position: relative;
-    top: 100px;
+    position: relative;   
 }
 .title {
     font-size: 25px;
     font-weight: bold;
     margin-top: 25px;
-    color: #0b5394;
+    color: #a21a19;
     text-shadow: #d8cccc 1px 1px 2px;
 }
 .content{
@@ -50,8 +94,8 @@ body{
 .gray-text{
     color: #7e7e7e;
 }
-.desc{
-    color: #5e5d5d;
+.red-text{
+    color: #a21a19;
 }
 td{
     padding-right: 120px;
@@ -61,7 +105,7 @@ ul{
     margin-top: 5px;
 }
 .side{
-    padding-left: 40px;
+    padding-left: 25px;
 }
 #scroll_button{
     position: fixed;
