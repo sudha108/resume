@@ -9,12 +9,10 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background: #a21a19;
     z-index: 10;
     width: 100%;
-    color: #ffffff;
 }
-#title {
+#name-title {
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 3px;
@@ -43,27 +41,27 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    background: #a21a19;
     z-index: 0;
     width: 100%;
-    color: #ffffff;
 }
 #s-h-title {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
     letter-spacing: 3px;
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    font-family: 'Playfair Display', serif;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    /* font-family: 'Playfair Display', serif; */
 }
 #s-h-title-desc{
-    font-size: 13px;
+    font-size: 18px;
     letter-spacing: 3px;
-    padding-left: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
     font-weight: bold;
-    padding-bottom: 10px;
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
 }
 .horizontal-line{
     background-color: #b1a9a9;
@@ -71,28 +69,40 @@ body{
     height: 3px;
     border-radius: 3px;
 }
+#left-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    padding: 30px;
+    font-family: 'Playfair Display', serif;
+    /* height: 100%;; */
+}
 #container{
-    position: relative;   
+    position: absolute;  
+    left: 30%; 
+    right: 5%;
 }
 .title {
     font-size: 25px;
     font-weight: bold;
     margin-top: 25px;
-    color: #a21a19;
     text-shadow: #d8cccc 1px 1px 2px;
+}
+.black-shadow{
+    text-shadow: #000000 1px 1px 2px;
 }
 .content{
     text-align: justify;
     padding-top: 5px;
+    font-size: 18px;
 }
 .side-heading{
     padding-top: 10px;
 }
 .gray-text{
     color: #7e7e7e;
-}
-.red-text{
-    color: #a21a19;
 }
 td{
     padding-right: 120px;
@@ -115,9 +125,9 @@ ul{
 }
 #footer{
     background: #cecaca; 
-    border-radius: 15px;
+    border-radius: 5px;
     text-align: center;
-    padding: 10px 0 15px 0;
+    padding: 10px 10px 15px 0;
 }
 
 a.black-link:link {
