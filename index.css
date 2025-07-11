@@ -1,6 +1,11 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 14%;
+    background-image: url('background.jpg');
+    height: 100%;
+    background-size: cover;        
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    margin-left: 15%;
     margin-right: 15%;
     line-height: 30px;
     font-size: 18px;
@@ -13,21 +18,30 @@ body{
     width: 100%;
 }
 #name-title {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bolder;
     letter-spacing: 3px;
     padding-left: 40px;
     padding-top: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-family: 'Playfair Display', serif;
 }
 #title-desc{
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 3px;
     padding-left: 40px;
     font-weight: bold;
     padding-top: 20px;
-    padding-bottom: 40px;
+    /* padding-bottom: 10px; */
+    font-family: 'Playfair Display', serif;
+}
+#portfolio-desc{
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-left: 40px;
+    /* font-weight: bold; */
+    padding-top: 10px;
+    padding-bottom: 20px;
     font-family: 'Playfair Display', serif;
 }
 #address{
@@ -37,7 +51,7 @@ body{
     top: 30px;
     padding-bottom: 10px; 
 }
-#static-header{
+#static-header{ /* unused */
     position: fixed;
     top: 0;
     left: 0;
@@ -45,23 +59,23 @@ body{
     width: 100%;
 }
 #s-h-title {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bolder;
     letter-spacing: 3px;
-    padding-left: 30px;
     padding-top: 20px;
-    padding-right: 30px;
-    /* font-family: 'Playfair Display', serif; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    font-family: 'Playfair Display', serif;
 }
 #s-h-title-desc{
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 3px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 15px;
-    padding-bottom: 30px;
-    font-weight: bold;
-    /* font-family: 'Playfair Display', serif; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding-top: 25px;
+    padding-bottom: 20px;
+    /* font-weight: bold; */
+    font-family: 'Playfair Display', serif;
 }
 .horizontal-line{
     background-color: #b1a9a9;
@@ -69,15 +83,17 @@ body{
     height: 3px;
     border-radius: 3px;
 }
-#left-bar{
+#left-bar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     width: 25%;
     padding: 30px;
-    font-family: 'Playfair Display', serif;
-    /* height: 100%;; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    overflow-y: auto;       /* Enables vertical scroll */
+    box-sizing: border-box; /* Ensures padding doesn't expand width */
 }
 #container{
     position: absolute;  
@@ -102,13 +118,12 @@ body{
     padding-top: 10px;
 }
 .gray-text{
-    color: #7e7e7e;
+    color: #6c6969;
 }
 td{
     padding-right: 120px;
 }
 ul{
-    text-align: justify; 
     margin-top: 5px;
 }
 .side{
@@ -116,18 +131,12 @@ ul{
 }
 #scroll_button{
     position: fixed;
-    bottom: 50px;
-    right: 20px;
+    bottom: 2%;
+    right: 2%;
     text-align: center;
     padding: 5px 15px 5px 15px;
     border-radius: 50px;
     background: #cecaca;
-}
-#footer{
-    background: #cecaca; 
-    border-radius: 5px;
-    text-align: center;
-    padding: 10px 10px 15px 0;
 }
 
 a.black-link:link {

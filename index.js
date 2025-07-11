@@ -30,7 +30,7 @@ window.onload = function(){
         my_name_elements[ele].innerHTML = my_name;
         my_name_elements[ele].style.color = white;
     }
-    var job_title = "Quality Assurance and Test Automation Engineer";
+    var job_title = "Quality and Test Automation Engineer";
     var job_title_elements = document.getElementsByClassName("job-title");
     for(var ele=0; ele< job_title_elements.length; ele++){
         job_title_elements[ele].innerHTML = job_title;
