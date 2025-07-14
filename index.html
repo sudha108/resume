@@ -15,8 +15,9 @@
         <div>
             <div id="name-title" class="my-name black-shadow"></div>
             <div id="title-desc" class="job-title black-shadow"></div>
-            <div id="portfolio-desc" class="black-shadow">My resume turned portfolio — a glimpse into my passion for
-                building and organizing</div>
+            <div id="portfolio-desc" class="black-shadow">My resume — more detailed, simple, looks almost like my resume
+                in paper and reflects my
+                love for building and organizing</div>
         </div>
         <div id="address">
             <br />
@@ -69,21 +70,16 @@
                     <li>Python(Pytest)</li>
                     <li>JMeter and JSR223</li>
                     <li>Jenkins/Shell Scripting</li>
-                    <li>HTML/CSS</li>
-                    <li>Javascript/NodeJS</li>
-                    <li>Protractor</li>
                     <li>Cucumber (TDD/BDD)</li>
-                    <li>Selenium/TestNG</li>
-                    <li>SQL - Postgres/MongoDB</li>
+                    <li>Selenium</li>
+                    <li>HTML/CSS/JS</li>
+                    <li>SQL - Postgres</li>
                     <li>Postman</li>
-                    <li>Ruby (Rspec)</li>
-                    <li>Java</li>
-                    <li>AWS - SQS, EB, S3</li>
-                    <li>Documentation - Confluence, README.md</li>
+                    <li>AWS; Kafka; ElasticSearch</li>
+                    <li>Jira; Confluence</li>
                 </ul>
             </div>
         </div>
-
     </div>
     <div id="container">
         <br /><br />
@@ -126,110 +122,191 @@
                 Dec 2023 - Present </div>
             <div class="gray-text">Automation Expertise</div>
             <ul>
-                <li>Resolved a long-standing mock server integration issue in the test framework Test Engine</li>
-                <li>Improved regression pass rate from 60% to 90% and enhanced test coverage to eliminate the need for
-                    manual intervention during regression cycles</li>
-                <li>Automated manual copying of data from production with safe procedure</li>
+                <li>Boosted <b>regression pass rate</b> from 60% to 90% across pytest and Virtuoso, and significantly
+                    extended test coverage to <b>eliminate manual intervention</b> during regression cycles across two
+                    different teams — one with limited scenarios and another with extensive, complex workflows </li>
+                <li>Legacy test cases and automation code (3–4 years old) written by me are still in active use,
+                    demonstrating long-term reliability and maintainability</li>
+                <li>Fixed a long-standing(2 years) <b>mock server integration issue</b> in the Test Engine framework,
+                    which generated status check combinations (e.g., Picked Up, In Transit) for over 1,000 EDI code
+                    mappings across different vendors like FedEx and UPS. The original logic produced more than 10k
+                    redundant and invalid combinations using a mathematical approach. After researching the actual use
+                    case, I <b>refactored</b> the logic to group statuses into valid sets, reducing the combinations to
+                    just 15–20 per vendor, significantly improving test efficiency, reliability, and relevance.</li>
+                <li>Automated the previously manual process of safely copying production data for testing, implementing
+                    a controlled procedure and integrating it into an existing automation job</li>
             </ul>
             <div class="gray-text">Performance Testing Expertise</div>
             <ul>
-                <li>Designed and automated performance testing using JMeter, JSR223, and Go scripts for Chronosphere
-                    metric validation, integrated directly into the release pipeline </li>
+                <li>Designed performance testing suite in <b>Apache JMeter</b> covering all the critical APIs and
+                    configuring
+                    throughput to reflect production like load </li>
+                <li>Wrote Jmeter scripts for <b>concurrency testing</b> for all major workflows to verify proper lock
+                    acquisition and graceful error handling</li>
+                <li>Utilised <b>JSR223 (Groovy)</b> to extract and parse API responses and pass data across APIs
+                    enabling
+                    sequential execution of dependent APIs</li>
+                <li>Developed Go scripts to fetch metrics from Chronosphere and compare them against thresholds defined
+                    in CSV files, helping validate system performance and detect anomalies</li>
+                <li>Used <b>shell</b> scripts to run JMeter, generate HTML reports, and execute the Go scripts
+                    sequentially,
+                    with efficient logging for easy tracking and debugging</li>
+                <li>Set up an EC2 instance and configured local <b>Jenkins</b> to run the entire flow in a controlled
+                    environment, with efficient log storage and traceability</li>
             </ul>
-            <div class="gray-text">Innovative Proof of Concepts/Prototypes & Tech Trials</div>
+            <div class="gray-text">Innovative Tech Trials</div>
             <ul>
-                <li>AI-driven test automation using cucumber and go</li>
-            </ul>
-            <div class="gray-text">Technologies Explored</div>
-            <ul>
-                <li>Automated and fixed failures in Virtuoso</li>
+                <li>Built an experimental Cucumber-Go integration test framework entirely through <b>AI prompting</b>
+                </li>
             </ul>
             <div class="gray-text">Testing Lifecycle Involvement</div>
             <ul>
-                <li>Owned end-to-end QA for two products—including test case and automation reviews, release
-                    decision-making, and coordination—resulting in a zero-issue pilot launch and a high-revenue
-                    offering.
+                <li>Owned <b>end-to-end QA</b> for two products simultaneously - one a high-revenue offering and another
+                    a sucessful pilot, ensuring high-quality releases</li>
+                <li>Conducted manual and automation test case and <b>code reviews</b> to maintain robust test coverage
+                </li>
+                <li>Drove <b>release readiness decisions</b> in collaboration and coordination with cross-functional
+                    teams, product managers, customer success managers, developers, and support teams</li>
+                <li>Actively supported <b>production issues (P1/CX)</b> by identifying and analyzing root causes</li>
+            </ul>
+            <div class="gray-text">Collaboration & Ownership</div>
+            <ul>
+                <li>Led <b>Kafka migration</b> from Cloudera to Confluent(from config changes, planning to release
+                    coordination), executing the transition of 100+ topics with negligible downtime </li>
+                <li>Streamlined the <b>release process</b> by introducing ATDD-aligned quality checkpoints and
+                    documenting test case review and release guidelines with actionable checklists </li>
+                <li>Defined and guided the team to adopt <b>standardized automation norms</b> as best practices,
+                    improving script development speed, enhancing reliability, and reducing code redundancy</li>
+                <li>Transitioned release ownership to developers through extensive knowledge transfer and documentation
+                </li>
+            </ul>
+            <div class="gray-text">Tools & Technologies</div>
+            <ul>
+                <li>Python (Pyest)</li>
+                <li>JMeter and JSR223</li>
+                <li>Virtuoso (NLP Testing Tool) with Javascripts extensible scripts</li>
+                <li>Go scripts using AI</li>
+                <li>Shell scripting</li>
+                <li>Chronosphere for analysing metrics(CPU/mem usage; API response time; Throughput, Apdex)</li>
+                <li>Kafka, Graphana, AKHQ</li>
+                <li>Elastic Search and scripting</li>
+                <li>AWS: EKS; S3; Lambda</li>
+                <li>Jenkins</li>
+                <li>Postman</li>
+                <li>ArgoCD for deployments</li>
+                <li>Databases: Postgres; Mongo; Cassandra</li>
+                <li>Jira Automations</li>
+                <li>Confluence</li>
+                <li>Git and Github</li>
+            </ul>
+            <div class="side-heading content base-color-text"><b><i>Career Break</i></b> :
+                Oct 2020 - Nov 2023 (3 years)</div>
+            <ul style="list-style-type: none">
+                <li><span class="gray-text">Reason:</span> Maternity and Parenting</li>
+            </ul>
+            <div class="side-heading content base-color-text"><b><i>Test Automation Engineer</i></b> :
+                Oct 2019 - Sep 2020 (1 year)</div>
+            <div class="gray-text">Automation Expertise</div>
+            <ul>
+                <li>Automated more than 400 cases in Protractor framework (30+ in mail validations, 20+ in database
+                    validations, 200+ in api validations) within a short period of time</li>
+                <li>Improvised protractor automation code by modularising and simplifying common functions. For example,
+                    combined methods that create similar data in ui and api</li>
+                <li>Wrote more than 25 generic steps in protractor framework which can be reused across several modules
+                    by just replacing variables and QAs have been able to automate test cases with 0% coding effort
+                    using them</li>
+                <li>Automated more than 60 test scenarios (5-10 test cases each) in an end-to-end Pytest framework
+                    (python) and contributed to several general utilities such as logging, polling (check for conditions
+                    in intervals of time), FTP, mail</li>
+                <li>Achieved 90% UI automation coverage in parallel with development (TDD) for a single-page application
+                    featuring a dynamic design configuration form; identified 50+ defects in a single interactive form
+                    through automation</li>
+            </ul>
+            <div class="gray-text">Innovative Tech Trials</div>
+            <ul>
+                <li>Conducted a POC on Cypress to evaluate its efficiency, and concluded that our existing framework
+                    offers greater advantages</li>
+            </ul>
+            <div class="gray-text">Testing Lifecycle Involvement</div>
+            <ul>
+                <li>Responsible for configuring Jenkins jobs for daily regression and stabilising the daily regression
+                    results to a good extent (from 70% to 92%) by analyzing, debugging and fixing a lot of automation
+                    issues and handling different environment-related issues</li>
+            </ul>
+            <div class="gray-text">Collaboration & Ownership</div>
+            <ul>
+                <li>Led two QA engineers, driving requirement analysis, test planning, and continuous coordination with
+                    developers and Product for a single-page application featuring a dynamic design configuration form
+                </li>
+            </ul>
+            <div class="gray-text">Tools & Technologies</div>
+            <ul>
+                <li>Selenium(Java) TestNg test framework</li>
+                <li>Cypress</li>
+            </ul>
+            <div class="side-heading content base-color-text"><b><i>Quality Assurance Engineer</i></b> :
+                May 2018 - Sep 2019 (1 & 1/2 years)</div>
+            <div class="gray-text">Automation Expertise</div>
+            <ul>
+                <li>Automated demo data creation via a cron running on Jenkins with self-interest</li>
+                <li>Initial contributor to the company-wide almost scriptless test automation framework which used
+                    Nodejs, Protractor & Cucumber</li>
+                <li>Optimised several functions in the framework and wrote generic methods for validations and database
+                    querying in MongoDB and MySQL and helpers for integrating with TestRails, AWS-SQS</li>
+            </ul>
+            <div class="gray-text">Performance Testing Expertise</div>
+            <ul>
+                <li>Improvised load testing in JMeter with BeanShell scripts for data manipulations</li>
+
+            </ul>
+            <div class="gray-text">Testing Lifecycle Involvement</div>
+            <ul>
+                <li>Responsible for end-to-end (API, DB, UI) manual testing with test case and test data preparation,
+                    reporting defects and bugs in Jira, regression, sanity, cross-browser and cross-platform testing
                 </li>
             </ul>
             <div class="gray-text">Collaboration & Ownership</div>
             <ul>
-                <li>Led Kafka migration from Cloudera to Confluent, executing the transition of 100+ topics with
-                    negligible
-                    downtime </li>
-                <li>Streamlined the release process by introducing ATDD-aligned quality checkpoints and documenting test
-                    case review and release guidelines with actionable checklists; also contributed to resolving P1 and
-                    CX
-                    issues </li>
+                <li>Mentored three interns to test in an agile manner and in capturing corner cases</li>
             </ul>
-
-            <div class="side-heading content base-color-text"><b><i>Career Break</i></b> :
-                Oct 2020 - Nov 2023 (3 years)</div>
-            <ul style="list-style-type: none">
-                <li><span class="gray-text">Reason:-</span> Maternity and Parenting</li>
-            </ul>
-            <div class="side-heading content base-color-text"><b><i>Test Automation Engineer</i></b> :
-                Oct 2019 - Sep 2020 (1 year)</div>
+            <div class="gray-text">Tools & Technologies</div>
             <ul>
-                <li>Responsible for configuring Jenkins jobs for daily regression and stabilising the daily regression
-                    results to a good extent (from 70% to 92%) by analyzing, debugging and fixing
-                    a lot of automation issues and handling different environment-related issues</li>
-                <li>Automated more than 400 cases in Protractor framework (30+ in mail validations, 20+ in database
-                    validations,
-                    200+ in api validations) within a short period of time</li>
-                <li>Improvised protractor automation code by modularising and simplifying common functions. For example,
-                    combined methods that create similar data in ui and api</li>
-                <li>Wrote more than 25 generic steps in protractor framework which can be reused across several modules
-                    by
-                    just replacing variables and QAs have been able to automate test cases with 0% coding effort using
-                    them</li>
-                <li>Automated more than 60 test scenarios (5-10 test cases each) in an end-to-end Pytest framework
-                    (python) and
-                    contributed to several general utilities such as logging, polling (check for conditions in intervals
-                    of time)</li>
-                <li>In a single interactive form feature, identified more than 50 defects, achieved close to 100% UI
-                    automation
-                    parallel to development (TDD) leading two other QA resources, gathering requirements and planning
-                    with
-                    continuous coordination with devs and Product</li>
-                <li>Worked on a Selenium(Java) TestNg test framework</li>
-            </ul>
-            <div class="side-heading content base-color-text"><b><i>Quality Assurance Engineer</i></b> :
-                May 2018 - Sep 2019 (1 & 1/2 years)</div>
-            <ul>
-                <li>Automated demo data creation via a cron running on Jenkins with self-interest</li>
-                <li>Improvised load testing in JMeter with BeanShell scripts for data manipulations</li>
-                <li>Initial contributor to the company-wide almost scriptless test automation framework which used
-                    Nodejs, Protractor & Cucumber</li>
-                <li>Optimised several functions in the framework and wrote generic methods for validations and
-                    database querying in MongoDB and MySQL and helpers for integrating with TestRails, AWS-SQS</li>
                 <li>Experience in writing and executing queries in MongoDB using terminal as well as MongoLAB</li>
                 <li>Familiarised with AWS services - SQS, S3, ElasticSearch, Elastic Beanstalk</li>
-                <li>Mentored three interns to test in an agile manner and in capturing corner cases</li>
                 <li>Experience in using Neo4j graph database and spark data framework</li>
             </ul>
             <div class="side-heading content base-color-text"><b><i>Quality Assurance Intern</i></b> :
-                Sep 2017 - Apr 2018 </div>
+                Sep 2017 - Apr 2018 (8 months) </div>
+            <div class="gray-text">Automation Expertise</div>
             <ul>
-                <li>While still studying, I interned for about 8 months until completion of my BE degree</li>
+                <li>Developed an API Test Automation framework from scratch using Cucumber and RSpec (Ruby) and
+                    integrated it with Testrails for test case management and Google sheets for collecting API data and
+                    metrics</li>
+            </ul>
+            <div class="gray-text">Innovative Tech Trials</div>
+            <ul>
+                <li>I utilised Postman Collection Runners for testing in bulk along with scripts for validations. This
+                    was my initial step to automation, I tried it with my own interest to reduce the burden of manual
+                    tasks</li>
+            </ul>
+            <div class="gray-text">Testing Lifecycle Involvement</div>
+            <ul>
                 <li>I was responsible for end-to-end (API, DB, UI) manual testing with test case and test data
-                    preparation,
-                    reporting defects and bugs in Jira, regression, sanity, cross-browser and cross-platform testing for
-                    the
-                    product called PCM (Predictive Capacity Management), which allowed shippers to collaborate with each
-                    other
-                    and share their assets to optimise their backhauls.</li>
-                <li>I got experience in Agile Methodologies (Scrum-Based Workflow)</li>
+                    preparation, reporting defects and bugs in Jira, regression, sanity, cross-browser and
+                    cross-platform testing for the product called PCM (Predictive Capacity Management), which allowed
+                    shippers to collaborate with each other and share their assets to optimise their backhauls.</li>
+            </ul>
+            <div class="gray-text">Collaboration & Ownership</div>
+            <ul>
                 <li>I have had the chances to handle releases as a single QA resource</li>
                 <li>I was recognised in monthly all hands for taking up ownership many times</li>
                 <li>I got familiarised with Confluence for documentation. I wrote many pages on the product explanation
                     with easy-to-understand diagrams</li>
+            </ul>
+            <div class="gray-text">Tools & Technologies</div>
+            <ul>
+                <li>I got experience in Agile Methodologies (Scrum-Based Workflow)</li>
                 <li>We used TestRails for test case management</li>
-                <li>I utilised Postman Collection Runners for testing in bulk along with scripts for validations. This
-                    was my initial step
-                    to automation, I tried it with my own interest to reduce the burden of manual tasks</li>
-                <li>Developed an API Test Automation framework from scratch using Cucumber and RSpec (Ruby) and
-                    integrated it with Testrails for test case management and Google sheets for collecting API data and
-                    metrics</li>
                 <li>Documented the usage of the framework in Confluence as well as in README.md (markdown) file </li>
                 <li>I got the chance to work on a Java Spring test framework. But it was for quite a short period of
                     time.</li>
@@ -241,11 +318,16 @@
             <div class="horizontal-line"></div>
             <div class="gray-text">My Managers and Mentors Who Influenced My Professional Growth</div>
             <div class="content"> <b>Vaishnavi </b> - QA Lead</div>
-            <div class="content gray-text"> </div>
+            <div class="content gray-text">During my internship and QA Engineer role, she entrusted me with full release
+                ownership and gave me the opportunity to write and own automation scripts. Her guidance played a key
+                role in my transition to a Test Automation Engineer.</div>
             <div class="content"> <b>Gokul</b> - Engineering Manager Automation</div>
-            <div class="content gray-text"> </div>
+            <div class="content gray-text">He showed me what it truly means to take ownership and be assertive. He set a
+                strong example of how a well-structured test automation framework should be built—and much of who I am
+                today is because of his influence and guidance </div>
             <div class="content"> <b>Kavya </b> - QA Lead</div>
-            <div class="content gray-text"> </div>
+            <div class="content gray-text">She’s also a mother who returned to work, just like me. She showed what it
+                takes to balance responsibilities at home and at work—and how to lead with strength and grace</div>
         </div>
         <div id="education">
             <div class="title"><i class="fa fa-graduation-cap"></i> Education</div>
@@ -268,9 +350,6 @@
                 <li>Participated and ranked among the top 30% at school level in Science and Green Olympiads</li>
                 <li>Participated in Inter-school Social Science Exhibitions & Regional National Children’s Science
                     Congress</li>
-                <li>Participated in Inter-school Social Science Exhibitions & Regional National Children’s Science
-                    Congress</li>
-                <li>hello</li>
             </ul>
         </div>
         <div id="projects">
@@ -302,8 +381,14 @@
             <div class="title"><i class="fa fa-book"></i> Publications & Blogs</div>
             <div class="horizontal-line"></div>
             <div class="content">
-                <a class="black-link" target="_blank" href="https://medium.com/testing-diaries"><b>Testing
-                        Diaries</b></a>
+                <a class="black-link" target="_blank" href="https://medium.com/testing-diaries">
+                    <b>Testing Diaries</b> &nbsp;<img src="testing_diaries_logo.png" height="15px" weigth="20px"></a>
+                </br>
+                Published and maintaining a space for my experiences with testing and automation.
+                These are stories of transitioning from manual to test automation and tips to automate better </br>
+                Testing Diaries is a set of tales of how I, who had no air of even how IT works managed to survive it
+                and succeeded in becoming an automation engineer from a regular QA intern. You’ll also find tips,
+                viewpoints and tools on automating better.
             </div>
         </div>
         <div id="tech-skills-summary">
